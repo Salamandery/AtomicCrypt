@@ -17,7 +17,6 @@ type
     bDecode: TButton;
     procedure bEncodeClick(Sender: TObject);
     procedure bDecodeClick(Sender: TObject);
-    procedure mmResultEnter(Sender: TObject);
   private
     { Private declarations }
   public

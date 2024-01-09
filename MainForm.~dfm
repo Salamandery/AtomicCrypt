@@ -19,8 +19,6 @@ object fMain: TfMain
     Top = 8
     Width = 513
     Height = 153
-    Lines.Strings = (
-      'mmText')
     TabOrder = 0
   end
   object mmResult: TMemo

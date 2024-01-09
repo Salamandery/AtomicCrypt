@@ -5,16 +5,17 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, IdCoder, IdCoderMIME, IdBaseComponent, IdCoder3to4,
-  EncdDecd;
+  EncdDecd, ComCtrls;
 
 type
   TfMain = class(TForm)
-    mmText: TMemo;
+    tControl: TTabControl;
     mmResult: TMemo;
     bEncode: TButton;
-    idEMime: TIdEncoderMIME;
     IdDMime: TIdDecoderMIME;
+    idEMime: TIdEncoderMIME;
     bDecode: TButton;
+    mmText: TMemo;
     procedure bEncodeClick(Sender: TObject);
     procedure bDecodeClick(Sender: TObject);
   private
