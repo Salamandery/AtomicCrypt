@@ -1,7 +1,8 @@
 object fMain: TfMain
   Left = 413
   Top = 176
-  BorderStyle = bsNone
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'AtomicCrypt'
   ClientHeight = 379
   ClientWidth = 539
@@ -13,6 +14,7 @@ object fMain: TfMain
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
+  Scaled = False
   PixelsPerInch = 96
   TextHeight = 13
   object tControl: TTabControl
